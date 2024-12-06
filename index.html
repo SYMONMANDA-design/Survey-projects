@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+
+    <style>
+        
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 500px;
+            background-color: rgb(102, 217, 163);
+            border-radius: 10px;
+            padding: 10px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <h4>SURVEY FORM</h4>
+        <label for="first_name">First name</label>
+        <input id="first_name" type="text">
+
+        <label for="last_name">Last name</label>
+        <input type="last_name" type="text">
+        
+
+        <label for="age">Select age</label>
+
+        <input type="radio" name="age" id="age_below">
+        <label for="age_below">Below 18</label>
+
+        <input type="radio" name="age" id="age_above">
+        <label for="age_above">Above 18</label>
+
+        <label for="">check visited districts</label>
+
+        <input type="checkbox" name="district" id="lilongwe">
+        <label for="lilongwe">Lilongwe</label>
+
+        <input type="checkbox" name="district" id="mzimba">
+        <label for="mzimba">Mzimba</label>
+
+        <input type="checkbox" name="district" id="zomba">
+        <label for="zomba">Zomba</label>
+
+        <input type="checkbox" name="district" id="mulanje">
+        <label for="mulanje">Mulanje</label>
+
+        <button id="submit_button">Submit</button>
+    </form>
+    
+</body>
+</html>
